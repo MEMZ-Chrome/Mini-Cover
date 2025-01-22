@@ -3,7 +3,6 @@
       <button class="logo-btn" @click="toggleTips">小提示</button>
     </div>
   </footer>
-  <!-- 小提示弹窗 -->
   <div class="tips-popup" :class="{ 'show': showTipsPopup }">
     <div class="popup-content">
       <span>为避免性能问题，建议不要连续做图</span>

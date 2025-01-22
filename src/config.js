@@ -1,5 +1,5 @@
 export const defaultConfig = {
-    text: '默认文本',       // 默认文本
+    text: '默认文本',       // 文本
     watermark: ' ', // 默认水印
     fontFamily: import.meta.env.VITE_APP_FONT_FAMILY,
     fontStyles: [

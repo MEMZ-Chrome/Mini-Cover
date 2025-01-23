@@ -1,7 +1,7 @@
 <template>
   <footer>
       <button class="logo-btn" @click="toggleTips">小提示</button>
-    </div>
+
   </footer>
   <div class="tips-popup" :class="{ 'show': showTipsPopup }">
     <div class="popup-content">
